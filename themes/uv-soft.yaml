@@ -1,0 +1,41 @@
+---
+uv-soft:
+  card-mod-theme: uv-soft
+
+  ha-card-box-shadow: "-5px -5px 15px var(--shadow-color-upper), 5px 5px 15px var(--shadow-color-lower)"
+  ha-card-border-radius: "15px"
+  masonry-view-card-margin: "20px 20px 40px 20px"
+  # masonry-view-card-margin: "0"
+  ha-card-background: "var(--primary-background-color)"
+  app-header-background-color: "var(--primary-background-color)"
+  app-header-text-color: "var(--sidebar-text-color)"
+  soft-ui-pressed: 'inset -4px -4px 5px var(--shadow-color-upper), inset 4px 4px 5px var(--shadow-color-lower)'
+
+  sidebar-background-color: var(--primary-background-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  divider-color: var(--primary-background-color)
+  
+  modes:
+    light:
+      primary-background-color: "#F7F8F9"
+      shadow-color-upper: "#ffffff"
+      shadow-color-lower: "#ebebeb"
+
+    dark:
+      primary-background-color: "#222222"
+      shadow-color-upper: "#2c2c2c"
+      shadow-color-lower: "#191919"
+
+  card-mod-card: |
+    :host {
+      margin: 20px 20px 40px 20px !important;
+    }
+
+uv-soft-nobg:
+  card-mod-theme: uv-soft-nobg
+
+  ha-card-box-shadow: "0"
+  ha-card-border-radius: "0px"
+  masonry-view-card-margin: "20px 35px 10px 35px"
+  ha-card-background: "transparent"
+
