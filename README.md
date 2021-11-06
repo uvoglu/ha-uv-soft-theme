@@ -1,1 +1,1 @@
-# Soft
+# UVOGLU Soft Theme
