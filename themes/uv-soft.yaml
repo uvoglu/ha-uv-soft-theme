@@ -5,12 +5,14 @@ uv-soft:
   masonry-view-card-margin: "20px 20px 40px 20px"
   grid-view-card-margin: "0"
   layout-grid-gap: "26px"
-  grid-buttons-layout: "repeat(auto-fit, 70px)"
+  grid-buttons-layout: "repeat(auto-fill, minmax(60px, 1fr))"
+  grid-buttons-aspect-ratio: "1"
   # masonry-view-card-margin: "0"
   ha-card-background: "var(--primary-background-color)"
   app-header-background-color: "var(--primary-background-color)"
   app-header-text-color: "var(--sidebar-text-color)"
   app-header-edit-text-color: "var(--sidebar-text-color)"
+  text-primary-color: "var(--sidebar-text-color)"
   soft-ui-pressed: 'inset -4px -4px 5px var(--shadow-color-upper), inset 4px 4px 5px var(--shadow-color-lower)'
 
   sidebar-background-color: var(--primary-background-color)
@@ -22,7 +24,7 @@ uv-soft:
 
   uv-view-margin: "0px 0px 40px 0px"
   uv-view-card-margin: "0px"
-  uv-view-width: "340px"
+  uv-view-width: "340px" 
   uv-outer-card-margin: "0px"
   uv-outer-margin: "0px 20px 0px 20px"
   uv-inner-card-margin: "0px 0px 26px 0px"
@@ -32,7 +34,7 @@ uv-soft:
 
   mush-chip-spacing: "16px"
   mush-chip-padding: "0.5em"
-
+  
   modes:
     light:
       primary-background-color: "#F7F8F9"
